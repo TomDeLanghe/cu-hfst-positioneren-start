@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/overflows.css">
+    <title>Overflows</title>
+</head>
+<body>
+    <div class="div_noheight">Deze div heeft geen hoogte ingesteld. Daarom staat dit op "auto" wat betekent dat de div zich automatisch zal aanpassen aan de hoogte van inhoud (deze tekst dus).</div>
+    <div class="div_hideoverflows">Deze div heeft is 55px hoog en te klein voor de inhoud ervan. Door overflow op "hidden" te zetten zal de box de uitlopende tekst verbergen. Probeer dit maar eens te lezen!</div>
+    <div class="div_scrolloverflows">Deze div heeft is 55px hoog en te klein voor de inhoud ervan. Door overflow op "scroll" te zetten zal de box scrollbars toevoegen zodat de inhoud toch nog gelezen kan worden. Probeer dit maar eens te lezen!</div>
+    <div class="div_scroll-y-overflows">Deze div heeft is 55px hoog en te klein voor de inhoud ervan. De vervelende horizontale scrollbalk hierboven is niet nodig, dus gebruiken we de CSS3 eigenschap <b>y-overflow</b>. Er verschijnt nu enkel verticale balken. Probeer dit maar eens te lezen!</div>
+    <div class="div_noheight">Toch_zijn_horizontale_overflow_instellingen_soms_noodzakelijk_wanneer_er_enorme_lange_woorden_gebruikt_worden_hottentottententententoonstellingen</div>
+    <div class="div_scroll-x-overflows">Toch_zijn_horizontale_overflow_instellingen_soms_noodzakelijk_wanneer_er_enorme_lange_woorden_gebruikt_worden_hottentottententententoonstellingen</div>
+    <div style="white-space:nowrap;">Text-overflow werkt is handig wanneer je tekst op 1 lijn forceert met white-space. Zo kan je een beletselteken toevoegen aan afgeknipte tekst. Je moet echter eerst een overflow:hidden op box niveau instellen.</div>
+    <div class="div_beletselteken">Text-overflow werkt is handig wanneer je tekst op 1 lijn forceert met white-space. Zo kan je een beletselteken toevoegen aan afgeknipte tekst. Je moet echter eerst een overflow:hidden op box niveau instellen.</div>
+    <div class="div_more">Text-overflow werkt is handig wanneer je tekst op 1 lijn forceert met white-space. Zo kan je een beletselteken toevoegen aan afgeknipte tekst. Je moet echter eerst een overflow:hidden op box niveau instellen.</div>
+</body>
+</html>

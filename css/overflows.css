@@ -1,0 +1,49 @@
+div
+{
+    margin:10px;
+    padding:10px;
+    
+    width:250px;
+    background-color: #eeee99;   
+}
+
+.div_noheight
+{
+}
+
+.div_hideoverflows
+{
+    height:58px;
+    overflow:hidden;
+}
+
+.div_scrolloverflows
+{
+    height:58px;
+    overflow:scroll;
+}
+
+.div_scroll-y-overflows
+{
+    height:58px;
+    overflow-y:scroll;
+}
+
+.div_scroll-x-overflows
+{
+    overflow-x:scroll;
+}
+
+.div_beletselteken
+{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.div_more
+{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:'[GEKNIPT]';
+}

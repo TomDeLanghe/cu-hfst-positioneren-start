@@ -1,0 +1,40 @@
+﻿body{
+    background-color: darkgrey;
+    margin:200px 20px 0 100px;
+}
+
+
+#section01 {
+    background-color: black;
+    color: white;
+    width: 460px;
+    padding: 20px;
+}
+
+#article01 {
+    background-color: orangered;    
+}
+
+#article02 {
+    background-color: forestgreen;    
+}
+
+#article03 {
+    background-color: blueviolet;    
+}
+
+header {
+    background-color: cornflowerblue;
+    width: 500px;
+}
+
+p {
+    margin: 0;
+    padding-left: 5px;
+}
+
+footer {
+    background-color: cornflowerblue;
+    width: 500px;
+}
+
